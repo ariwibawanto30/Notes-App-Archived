@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+/* Header Style Start */
+header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  position: sticky;
+}
+
+/* Header Style End */
+
+/* Section Form Add Start */
+.form-add {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Section Form Add End */
+
+/* Section List Note Start */
+.list-notes {
+  padding: 20px 0;
+}
+
+.list-notes h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.line {
+  margin: 10px auto 0;
+  width: 90%;
+  height: 1px;
+  border: 1px solid black;
+}
+/* Section List Note End */
+
+/* Section List Archived Note Start */
+.list-archived-notes {
+  padding: 20px 0;
+}
+
+.list-archived-notes h2 {
+  text-align: center;
+  font-size: 30px;
+}
+/* Section List Archived Note End */

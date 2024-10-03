@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/0a5c69ebf8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+    <section id="formAdd" class="form-add">
+      <form-input></form-input>
+    </section>
+    <section id="listNotes" class="list-notes">
+      <h2>Notes Unarchived</h2>
+      <div class="line"></div>
+      <loading-app></loading-app>
+      <note-list></note-list>
+    </section>
+    <section id="listArchivedNotes" class="list-archived-notes">
+      <h2>Notes Archived</h2>
+      <div class="line"></div>
+      <archived-list></archived-list>
+    </section>
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
+  </body>
+</html>
